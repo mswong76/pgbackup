@@ -19,13 +19,13 @@ S3 Example w/ backet name:
 
 ::
 
-    $ pgbackup postgres://db_username:password/db_name -- driver s3 backups
+    $ pgbackup postgres://db_username:password@hostname:port/db_name -- driver s3 backups
 
 Local Example w/ local path:
 
 ::
 
-    $ pgbackup postgres://db_username:password/db_name -- driver local /var/local/db_name/backups/db_name_dump.sql
+    $ pgbackup postgres://db_username:password@hostname:port/db_name -- driver local /var/local/db_name/backups/db_name_dump.sql
 
 Running Tests
 -------------

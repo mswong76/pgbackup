@@ -8,6 +8,8 @@ name = "pypi"
 [dev-packages]
 
 pytest = "*"
+mocker = "*"
+pytest-mock = "*"
 
 
 [packages]
